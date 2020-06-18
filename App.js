@@ -3,7 +3,7 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { PokemonsContainer } from './containers/PokemonsContainer';
 
-export function App() {
+export const App = () => {
   const client = new ApolloClient({
     uri: 'https://graphql-pokemon.now.sh'
   })

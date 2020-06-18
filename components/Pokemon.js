@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Pokemon({ pokemon }) {
+export const Pokemon = ({ pokemon }) => {
   return (
     <div className="pokemon">
       <div className="pokemon__name">
@@ -18,9 +18,10 @@ export function Pokemon({ pokemon }) {
           <span key={`${attack.name}-${attack.damage}`}>
             {attack.name}
           </span>
-        ))}
+          )
+        )}
       </div>
     </div>
   )
-
 }
+

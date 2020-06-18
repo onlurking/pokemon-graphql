@@ -14,6 +14,6 @@ export const GET_POKEMONS = gql`
                     damage
                 }
             }
-        }   
+        }
     }
 `;
